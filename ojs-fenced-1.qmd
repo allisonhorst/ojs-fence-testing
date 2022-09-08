@@ -1,0 +1,25 @@
+---
+title: "ojs-fence test #1"
+format: html
+editor: visual
+---
+
+**Rendered through RStudio:**
+
+RStudio 2022.02.1+461 "Prairie Trillium" Release (8aaa5d470dd82d615130dbf663ace5c7992d48e3, 2022-03-17) for macOS
+
+Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3\_1) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.12.10 Chrome/69.0.3497.128 Safari/537.36
+
+**Using Quarto Version:**
+
+```{r, echo = FALSE}
+quarto::quarto_version()
+```
+
+Works as expected:
+
+```{ojs}
+//| echo: fenced
+fence_test = 2
+fence_test * fence_test
+```
